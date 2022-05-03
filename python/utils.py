@@ -1,17 +1,19 @@
-import requests
-import threading
-import numpy as np
-import time
 import re
-from urllib.parse import urlparse
+import threading
+import time
 from collections import defaultdict
-from HypeParameters import MAX_THREDS, data_name, data_regex
 from pprint import pprint
+
+import numpy as np
+import requests
+import tldextract
+
+from HypeParameters import MAX_THREDS, data_name, data_regex
 
 
 def domain_from(url):
-    # domain = urlparse(url).netloc
-    domain = ".".join(urlparse(url).netloc.split(sep='.')[1:])
+    tld = tldextract.extract(url)
+    domain = f'{tld.domain}.{tld.suffix}'
     return domain
 
 

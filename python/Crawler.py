@@ -1,9 +1,10 @@
 import networkx as nx
-import urllib
-import random
 import requests
+from urllib.parse import urljoin
+import random
 import time
 import re
+
 from collections import defaultdict, deque
 from bs4 import BeautifulSoup
 from utils import domain_from
@@ -112,7 +113,7 @@ class Crawler:
 
             add_urls = 0
             for new_url in hyper_links:
-                new_url = urllib.parse.urljoin(first_url, new_url['href'])
+                new_url = urljoin(first_url, new_url['href'])
                 if total_urls == self.MAX_URLS or add_urls == self.max_length:
                     break
                 if 'http' not in new_url or '.pdf' in new_url:
