@@ -26,7 +26,7 @@ def beutiful_plot(crawlers, node_size=100, edge_width=2, circle_size=40, figsize
             Ax = ax[i] if len(crawlers) == 1 else ax[k, i]
             nx.draw_kamada_kawai(Gra, **attrs[i], node_size=node_size, width=edge_width, ax=Ax, with_labels=False)
             Ax.set_title(
-                f'crawl of {TYPE[i]} : {text[i]} \n crawl time : {crw.time:.2f} (seconds),    '
+                f'crawl of {TYPE[i]} : {text[i]} \n,    '
                 f'{data_name} found : {len(crw.datas)}')
             Ax.grid(alpha=0.25)
             Ax.legend(handles=handles[i], fontsize=14)
