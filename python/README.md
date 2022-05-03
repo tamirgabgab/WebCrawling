@@ -32,10 +32,11 @@ the result of crawling among all url's
 
 
 ## Dependencies
-Python 3.8 <br>
+Google colab <br>
 
 BeautifulSoup <br>
 collections <br>
+tldextract <br>
 matplotlib <br>
 threading <br>
 requests <br>
