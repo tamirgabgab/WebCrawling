@@ -54,4 +54,4 @@ re <br>
 
 
 ## Results Example
-shown in figure1.html
+shown in figure1.html (download and open the file in **Chrome**)
