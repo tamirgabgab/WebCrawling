@@ -1,3 +1,10 @@
+
+## URL's
+Given in the code as list or url's, it is optional to read from .txt file (with space or '\n' as seperators) at the same directory.
+
+## Constraints
+We assume a maximum url's visits per main url (max_urls variable) and limited the number of entrances per link (max_link variable)
+
 ## Files
 
 ### crawler_pyrhon.ipynb
