@@ -20,6 +20,7 @@ Google colab <br>
 
 BeautifulSoup <br>
 collections <br>
+tldextract <br>
 matplotlib <br>
 threading <br>
 requests <br>
@@ -33,7 +34,7 @@ numpy <br>
 time <br>
 re <br>
 
-all the module (except mpld3) are availalbe in Google colab, use **!pip install mpld3** command for install mpld3 module (whice is for interactive results in html file)
+all the module (except mpld3, and tldextract) are availalbe in Google colab, use **!pip install mpld3** and **!pip install mpld3** commands for install mpld3 module (whice is for interactive results in html file)
 
 
 ## Results Example
