@@ -13,7 +13,11 @@ Contain all the scrifts in **python** version of web crawling.
 ### figure1
 the result of crawling among all url's
 
+## Example of result of 2 url's
 
+![image](https://user-images.githubusercontent.com/80973047/166524001-75b970b4-8d65-49cf-8c12-2ec5c447a115.png)
+<br>
+![image](https://user-images.githubusercontent.com/80973047/166523745-a9d0632c-f3ab-4c61-a73c-d41aa9bb8968.png)
 
 ## Dependencies
 Google colab <br>
