@@ -29,6 +29,11 @@ The main which need to run to for crawling.
 ### figure1
 the result of crawling among all url's
 
+## Example of result of 2 url's
+
+![image](https://user-images.githubusercontent.com/80973047/166523649-f447650b-a4ee-48f3-9066-45ff26f3da17.png)
+<br>
+![image](https://user-images.githubusercontent.com/80973047/166523745-a9d0632c-f3ab-4c61-a73c-d41aa9bb8968.png)
 
 
 ## Dependencies
